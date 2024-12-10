@@ -1,10 +1,17 @@
 # Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # C extensions
 *.so
+
+# Data
+data/
+dataset/
+*.png
+*.jpg
 
 # Distribution / packaging
 .Python
@@ -70,6 +77,10 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+
+#Idea stuff
+.idea/
+.DS_Store
 
 # PyBuilder
 .pybuilder/
